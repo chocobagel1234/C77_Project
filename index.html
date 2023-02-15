@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Console Experiment
+        </title>
+        
+<!--First font!-->       
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+<!--Second font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+<!--Third font!-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+<!--Fourth font!-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+
+<!--Importing/Linking the CSS-->
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+    </head>
+
+    <body>
+        <h1>Project on console</h1>
+     <section id="vs_console">
+        <!--Downloading Visual Studio-->
+        <h3>How to Download Microsoft Visual Studio</h3>
+        <p>Microsoft Visual Studio is an IDE, or Intergrated Development Environment. This means that all the common developer tools needed to build code for things like applications, webisites and games are all in one graphical user interface, or GUI. To download Visual Studio, you first need to type something like"Microsoft Visual Studio download" on your search engine and then click "Enter". After that, click the first link that should appear, which should say "Download Visual Studio Tools" at the beginning. ( If you're using a search engine that isn't Google, then you may have to scroll down and search a bit more thoroughly for it. ) Then, scroll down until you find both of the Visual Studio options side-by-side or on top of each other. Once you've found it, hover your mouse over the blue drop-down on the 'Visual Studio Code' section and select your version. If you can't find your software version on the main list of options, then click on "More" and the website will take you to another screen where you can try and find the version of software that you are on. You can do this by either clicking on any of the large download buttons or any of the small ones that apply to your specific version. <u>However,</u> if you <i>can</i> find your software version on the main list of options, then click on your version of software and you should be ready to go!</p>
+    
+        <p id="download_text">However, if you find that too hard, then click <a href="https://code.visualstudio.com/download" id= download_link target="_blank">here</a> </p>
+        <br>
+        
+        <!--About the Console-->
+        <h3>About the Console</h3>
+        <p>The console is a screen which alerts coders - or anyone who can access it (including you!) - of errors and sends messages that have been coded to appear in that particular window. To access it, all you just need to do is right click a blank space on any web page and then, from the menu of options, select "Inspect" and select the "Console" option from the top of the window. This opens the console window, which you can be able to type into - but only if you know what you're doing!
+        <br><br>
+        To code a string or interger to appear in the Console window, we can use the console.log( ) function. This "logs" an output (like the value of a variable after it has been changed by another function) into the console.
+        Most programmers prefer to use the Console and the console.log( ) function because it creates a simple user interface in which the user can read and access pieces of information. 
+        </p>
+        <br>
+        <p id="goToConsole"><b>Try right-clicking now to see the Console window!</b></p>
+     </section>
+
+     <section id="console_log_js">
+        <script>
+           var message1 = "Hooray! You found the console!";
+           console.log(message1);
+
+           var message2 = "This is my first project, so I hope you like it! There should be a calculation below. Look at the source code to find out how I did this!";
+           console.log(message2);
+
+           var a = 17;
+           var b = 45;
+           var add = "17 + 45 =";
+           console.log(add);
+           var ans = a + b;
+           console.log(ans);
+
+           var partOf_message3 = "Made by ";
+           var first_name = "Mahdiya ";
+           var last_name = "Alam";
+           var full_name = first_name.concat(last_name);
+           var message3 = partOf_message3.concat(full_name);
+           console.log(message3)
+        </script>
+     </section>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+h1 {
+    border-color: #025959;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #025959;
+    text-align:center;
+    color: #ebffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+} 
+
+p {
+    font-family: 'Dosis', sans-serif; 
+}
+
+#download_link {
+    color:#025959;
+}
+
+#goToConsole {
+    text-align:center;
+    color: #025959;
+}
